@@ -3,24 +3,37 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Package2;
 namespace Package1
 {
-    public class ClassT
+    public class ClassT : IT
     {
-        private IInterfaceE _ie;
-
-        public ClassT(IInterfaceE ie)
+        IX objx;
+        private ClassE e;
+        IE obje;
+        IE _ie;
+        public void Sett()
+        {
+ 
+        }
+        public ClassT(IE ie)
         {
             _ie = ie;
         }
 
+        public void UseOfConstructort(IE obe)
+        {
+            ClassT t = new ClassT(obe);
+        }
+
         public void Method2()
         {
-            ClassX x = new ClassX();
-            x.Method1();
+            if ((objx != null) &&(_ie != null) )
+            {
+                objx.Method1();
 
-            _ie.Method5();
+                _ie.Method5();
+            }
         }
     }
 }

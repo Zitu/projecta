@@ -7,7 +7,7 @@
     <ProjectGuid>{3CDDE3B9-5F54-4C98-8026-6F06DE2E8CE9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Package3</RootNamespace>
+    <RootNamespace>Package1</RootNamespace>
     <AssemblyName>Package3</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -47,8 +47,14 @@
     <Compile Include="ClassS.cs" />
     <Compile Include="ClassW.cs" />
     <Compile Include="ClassY.cs" />
-    <Compile Include="IInterfaceSomething.cs" />
+    <Compile Include="IG.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Package1\Package1.csproj">
+      <Project>{2bb5ed6d-0793-4250-bd3d-b2a6a59a71a7}</Project>
+      <Name>Package1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

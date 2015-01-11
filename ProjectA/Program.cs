@@ -21,6 +21,7 @@ namespace ProjectA
             a.Method2(); // hello world
             a.Method3();
 
+
             ClassB b = new ClassB();
             b.Method1();
             b.Method2();
@@ -40,7 +41,7 @@ namespace ProjectA
             j.Method1();
 
             ClassK k = new ClassK();
-            k.Method1();
+            k.method1();
 
             ClassM m = new ClassM();
             m.Method2();

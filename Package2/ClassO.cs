@@ -1,5 +1,4 @@
-﻿using Package1;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,12 +8,12 @@ namespace Package2
 {
     public class ClassO
     {
+        IE obje;
+        IT objt;
         public void Method2()
         {
-            ClassT t = new ClassT(new ClassE());
-            t.Method2();
-			
-			// this is another test comment
+            if (objt != null && obje != null)
+            objt.UseOfConstructort(obje);
         }
     }
 }

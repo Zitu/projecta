@@ -15,3 +15,17 @@ E:\Projects\AspNet\ProjectA\ProjectA\obj\Debug\ProjectA.pdb
 C:\Users\jalal\Desktop\projecta\ProjectA\bin\Debug\ProjectA.exe.config
 C:\Users\jalal\Desktop\projecta\ProjectA\obj\Debug\ProjectA.exe
 C:\Users\jalal\Desktop\projecta\ProjectA\obj\Debug\ProjectA.pdb
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\ProjectA.exe.config
+D:\WizIQ\Tasks\projecta\ProjectA\obj\Debug\ProjectA.exe
+D:\WizIQ\Tasks\projecta\ProjectA\obj\Debug\ProjectA.pdb
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\ProjectA.exe
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\ProjectA.pdb
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\Ninject.dll
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\Package1.dll
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\Package2.dll
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\Package3.dll
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\Package1.pdb
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\Package2.pdb
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\Package3.pdb
+D:\WizIQ\Tasks\projecta\ProjectA\bin\Debug\Ninject.xml
+D:\WizIQ\Tasks\projecta\ProjectA\obj\Debug\ProjectA.csprojResolveAssemblyReference.cache

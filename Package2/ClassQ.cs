@@ -8,10 +8,11 @@ namespace Package2
 {
     public class ClassQ
     {
+        IJ objj;
         public void Method3()
         {
-            ClassJ j = new ClassJ();
-            j.Method1();
+            if (objj != null)
+            objj.Method1();
         }
     }
 }

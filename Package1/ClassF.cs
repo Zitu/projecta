@@ -3,32 +3,39 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Package2;
 namespace Package1
 {
     class ClassF
     {
-        private ClassA _a;
-
+        IA obja;
         public ClassF()
         {
-            _a = new ClassA();
         }
 
         public void Method1()
         {
-            _a.Method2();
-            _a.Method3();
+            if (obja != null)
+            {
+                obja.Method2();
+                obja.Method1();
+            }
         }
 
         public void Method2()
         {
-            _a.Method3();
+            if (obja != null)
+            {
+                obja.Method1();
+            }
         }
 
         public void Method3()
         {
-            _a.Method1();
+            if (obja != null)
+            {
+                obja.Method1();
+            }
         }
     }
 }

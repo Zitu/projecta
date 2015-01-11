@@ -7,3 +7,8 @@ E:\Projects\AspNet\ProjectA\Package2\bin\Debug\Package1.dll
 E:\Projects\AspNet\ProjectA\Package2\bin\Debug\Package1.pdb
 E:\Projects\AspNet\ProjectA\Package2\bin\Debug\Package3.dll
 E:\Projects\AspNet\ProjectA\Package2\bin\Debug\Package3.pdb
+D:\WizIQ\Tasks\projecta\Package2\bin\Debug\Package2.dll
+D:\WizIQ\Tasks\projecta\Package2\bin\Debug\Package2.pdb
+D:\WizIQ\Tasks\projecta\Package2\obj\Debug\Package2.csprojResolveAssemblyReference.cache
+D:\WizIQ\Tasks\projecta\Package2\obj\Debug\Package2.dll
+D:\WizIQ\Tasks\projecta\Package2\obj\Debug\Package2.pdb

@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Package2;
 namespace Package1
 {
     public class ClassD
     {
-        private ClassA _a;
-
-        public ClassD(ClassA a)
+        IA obja;
+        public ClassD(IA oba)
         {
-            _a = a;
+            obja = oba;
         }
 
         public void Method1()
         {
-            _a.Method3();
+            if (obja != null)
+            {
+                obja.Method1();
+            }
         }
     }
 }

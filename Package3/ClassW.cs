@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Package1;
 namespace Package3
 {
     public class ClassW
     {
         private IInterfaceSomething _something;
+        IY objy;
 
         public ClassW(IInterfaceSomething something)
         {
@@ -18,7 +19,11 @@ namespace Package3
 
         public int Method2()
         {
-            return new ClassY().Method2();
+            if (objy != null)
+            {
+                return objy.Method2();
+            }
+            else return 0;
         }
 
         public void Method3()

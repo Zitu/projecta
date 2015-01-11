@@ -3,21 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Package2;
 namespace Package1
 {
-    public class ClassL
+    public class ClassL : IL
     {
-        private IInterfaceP _ip;
-
-        public ClassL(IInterfaceP ip)
+        IP objp;
+        
+        public ClassL(IP obp)
         {
-            _ip = ip;
+            objp = obp;
         }
+
 
         public void Method1()
         {
-            _ip.Method10();
+            if (objp != null)
+            {
+                objp.Method10();
+            }
         }
     }
 }

@@ -3,3 +3,12 @@ E:\Projects\AspNet\ProjectA\Package3\bin\Debug\Package3.pdb
 E:\Projects\AspNet\ProjectA\Package3\obj\Debug\Package3.csprojResolveAssemblyReference.cache
 E:\Projects\AspNet\ProjectA\Package3\obj\Debug\Package3.dll
 E:\Projects\AspNet\ProjectA\Package3\obj\Debug\Package3.pdb
+D:\WizIQ\Tasks\projecta\Package3\bin\Debug\Package3.dll
+D:\WizIQ\Tasks\projecta\Package3\bin\Debug\Package3.pdb
+D:\WizIQ\Tasks\projecta\Package3\obj\Debug\Package3.csprojResolveAssemblyReference.cache
+D:\WizIQ\Tasks\projecta\Package3\obj\Debug\Package3.dll
+D:\WizIQ\Tasks\projecta\Package3\obj\Debug\Package3.pdb
+D:\WizIQ\Tasks\projecta\Package3\bin\Debug\Package1.dll
+D:\WizIQ\Tasks\projecta\Package3\bin\Debug\Package2.dll
+D:\WizIQ\Tasks\projecta\Package3\bin\Debug\Package1.pdb
+D:\WizIQ\Tasks\projecta\Package3\bin\Debug\Package2.pdb

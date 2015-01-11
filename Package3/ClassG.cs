@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Package1;
 namespace Package3
 {
-    internal class ClassG
+    public class ClassG : IG
     {
-        internal void Method1()
+        public void Method1()
         {
 
         }

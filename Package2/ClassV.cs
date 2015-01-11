@@ -8,10 +8,11 @@ namespace Package2
 {
     public class ClassV
     {
+        IC objc;
         public void Method2()
         {
-            ClassC c = new ClassC();
-            c.Method1();
+            if (objc != null)
+            objc.Method1();
         }
     }
 }
